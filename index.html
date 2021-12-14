@@ -5,7 +5,7 @@
 * {
   box-sizing: border-box;
 }
- 
+
 body {
   background-image: #fff;
   background-repeat: no-repeat;
@@ -16,11 +16,11 @@ body {
   padding: 0;
   overflow: hidden;
 }
- 
+
 .merry-christmas img {
   width: 100px;
 }
- 
+
 .card {
   -webkit-perspective: 1500px;
   -moz-perspective: 1500px;
@@ -106,7 +106,7 @@ body {
   -o-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
 }
- 
+
 @keyframes cardIn {
   0% {
     opacity: 0;
@@ -147,7 +147,7 @@ body {
     height: 214px;
   }
 }
- 
+
 .card-page {
   -webkit-transition: -webkit-transform 1s ease-in-out;
   -moz-transition: -moz-transform 1s ease-in-out;
@@ -156,7 +156,7 @@ body {
   position: absolute;
   outline: 1px solid transparent;
 }
- 
+
 .cart-page-front {
   -webkit-transform-origin: 0 50% 0;
   -moz-transform-origin: 0 50% 0;
@@ -175,13 +175,13 @@ body {
   transform: rotateY(-20deg);
   z-index: 2;
 }
- 
+
 .cart-page-outside,
 .cart-page-inside {
   position: absolute;
   -webkit-backface-visibility: hidden;
 }
- 
+
 .cart-page-outside {
   border: 10px solid #fbfbfb;
   background: #1165ae
@@ -196,7 +196,7 @@ body {
     border: 5px solid #fbfbfb;
   }
 }
- 
+
 .cart-page-inside,
 .cart-page-bottom {
   background-color: #f9f9f9;
@@ -235,7 +235,7 @@ body {
     border: 10px solid #f9f9f9;
   }
 }
- 
+
 .cart-page-inside {
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
@@ -255,7 +255,7 @@ body {
     background-position: 0px 30px;
   }
 }
- 
+
 .cart-page-bottom {
   z-index: 1;
   border-left: none !important;
@@ -285,7 +285,7 @@ body {
     width: 150px;
   }
 }
- 
+
 p {
   font-family: "Architects Daughter", cursive;
   font-size: 20px;
@@ -303,12 +303,12 @@ p {
     font-size: 14px;
   }
 }
- 
+
 .click-text {
   font-size: 6px;
   font-family: "Architects Daughter", cursive;
 }
- 
+
 .click-icon {
   position: absolute;
   left: 50%;
@@ -345,7 +345,7 @@ p {
 .click-icon.is-hidden {
   opacity: 0;
 }
- 
+
 @keyframes iconAnimation {
   0% {
     -webkit-transform: translate(-50%, 0);
@@ -369,7 +369,7 @@ p {
       <div class="card-page cart-page-outside"></div>
       <div class="card-page cart-page-inside">
         <span class="merry-christmas">
-          <img src="https://i.imgur.com/fQCCtFI.png" alt="pling_logo" />
+          <img src="https://github.com/marcelogbrito/cartao-de-natal/raw/74c337c731854b1d86e17f2b4436ea7e29916359/quantum.jpeg" alt="pling_logo" />
         </span>
       </div>
     </div>
@@ -389,11 +389,11 @@ p {
   <script>
 const elemCard = document.querySelector("div.card");
 const elemClickIcon = document.querySelector("span.click-icon");
- 
+
 elemCard.addEventListener("click", function () {
   elemCard.classList.toggle("is-opened");
   elemClickIcon.classList.toggle("is-hidden");
 });
- 
+
 </script>
 </html>
