@@ -182,7 +182,7 @@ body {
 .cart-page-outside {
   border: 10px solid #fbfbfb;
   background: #1165ae
-    url("https://www.dailyherald.com/storyimage/DA/20121223/news/312239999/EP/1/13/EP-312239999.jpg&updated=201212191340&MaxW=800&MaxH=800&noborder")
+    url("https://github.com/marcelogbrito/cartao-de-natal/raw/54a9b747f39dcccb5d70dc300a5ca44a26576362/natalbb.jpg")
     no-repeat center;
   background-size: cover;
   width: 100%;
@@ -285,9 +285,9 @@ body {
 
 p {
   font-family: "Architects Daughter", cursive;
-  font-size: 20px;
+  font-size: 0.7rem;
   line-height: 1.2em;
-  padding: 15px;
+  padding: 8px;
   color: #3c4a85;
 }
 @media (max-width: 767px) {
