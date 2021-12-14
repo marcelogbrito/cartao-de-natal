@@ -1,5 +1,5 @@
 const elemCard = document.querySelector("div.card");
-const elemClickIcon = document.querySelector("span.click-icon");
+const elemClickIcon = document.querySelector("div.click-icon");
 
 elemCard.addEventListener("click", function () {
   elemCard.classList.toggle("is-opened");
