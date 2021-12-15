@@ -6,4 +6,5 @@ elemCard.addEventListener("click", function () {
   elemClickIcon.classList.toggle("is-hidden");
 });
 
+// eslint-disable-next-line no-restricted-globals
 screen.lockOrientation('landscape');
