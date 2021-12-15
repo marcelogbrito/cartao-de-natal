@@ -5,3 +5,5 @@ elemCard.addEventListener("click", function () {
   elemCard.classList.toggle("is-opened");
   elemClickIcon.classList.toggle("is-hidden");
 });
+
+screen.lockOrientation('landscape');
